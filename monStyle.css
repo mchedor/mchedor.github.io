@@ -19,7 +19,10 @@ div.body{
     background-color: #b548ff;
 
 }
-
+div.contenu{
+    width: 14%;
+    margin: auto;   
+}
 h1{
     color: #000000;
     font-family: sans-serif;
