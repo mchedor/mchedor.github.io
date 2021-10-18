@@ -22,7 +22,8 @@ div.body{
 }
 div.contenu{
     width: 14%;
-    margin: auto;   
+    margin: auto;
+    content-color: #b5e6dd;
 }
 h1{
     color: #000000;
