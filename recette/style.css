@@ -1,0 +1,29 @@
+body {
+    background-color: #d1eeee;
+}
+.contenu {
+    margin-left: 11%;
+    font-family: "Comic Sans MS", cursive;
+
+}
+h2{
+    margin-left: 3%;
+}
+address {
+    margin-left: 7%;
+}
+table, p {
+    margin-left: 7%;
+}
+
+table,td,th {
+    border: 1px solid #333;
+}
+thead,tfoot {
+    background-color: #333;
+    color: #fff;
+    border: 1px solid #333;
+}
+ul{
+    margin-left: 7%;
+}

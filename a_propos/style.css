@@ -1,0 +1,29 @@
+body {
+    background-color: #d1eeee;
+}
+.contenu {
+    margin-left: 11%;
+    font-family: "Comic Sans MS", cursive;
+
+}
+h2{
+    margin-left: 3%;
+}
+address {
+    margin-left: 7%;
+}
+p {
+    margin-left: 7%;
+}
+.lien_button{
+    color:black;
+}
+.lien_button:hover{
+    background-color: #cbde87;
+    border: 2px solid;
+    padding: 2px;
+    border-radius: 12px;
+    transition-property: padding;
+    transition: background-color 2s, border 0.5s, padding 0.5s, border-radius 0.2s;
+
+}

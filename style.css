@@ -1,0 +1,36 @@
+body {
+    background-color: #d1eeee;
+}
+.contenu {
+    margin-left: 11%;
+    font-family: "Comic Sans MS", cursive;
+}
+p {
+    margin-left: 7%;
+    margin-right: 11%;
+    line-height : 1.8;
+}
+h2{
+    margin-left: 3%;
+}
+.lien_redirection{
+    color:black;
+    transition: 2s;
+}
+.lien_redirection:hover {
+    background-color: #cbde87;
+    border: 2px solid;
+    padding: 2px;
+    border-radius: 12px;
+    transition-property: padding;
+    transition: background-color 2s, border 0.5s, padding 0.5s;
+    
+}
+.lien_redirection:hover::after{
+    opacity: 1;
+    transition: opacity 0.5s;
+}
+.lien_redirection::after{
+    content: "»";
+    opacity: 0;
+}

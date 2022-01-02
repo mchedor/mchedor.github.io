@@ -1,0 +1,100 @@
+#imgEntete {
+	width:80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  border: 2px solid;
+}
+.entete {
+  background-color:#f4ffd7;
+  border-color: #f4ffd7;
+  border: 10px;
+  position: sticky;
+  position: -webkit-sticky;
+
+}
+nav.menu {
+	background-color:#f4ffd7;
+  margin-left: 10%;
+  margin-right: 10%;
+  border: 10px solid #f4ffd7;
+  position: sticky;
+}
+.button {
+  box-sizing: border-box; 
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #cdfeff;
+  border: 10px;
+  color: #000;
+  text-align: center;
+  font-size: 1.2;
+  padding: 20px;
+  height: 30%;
+  transition: all 0.5s;
+  cursor: pointer;
+  font-weight: 600;
+
+  
+}
+
+.button span {
+  
+  cursor: pointer;
+  display: inline-block;
+  transition: 0.5s;
+  content: "";
+}
+.button:hover {
+  width: 10%;
+  transition: 1s;
+}
+.button:hover span {
+  padding-right: 5%;
+  padding-left: 15%;
+  
+}
+button:hover span:after {
+  content: "";
+  opacity: 1;
+  right: 0;
+}
+.button span:after {
+  opacity: 0;
+  top: 0;
+  transition: 0.5s;
+}
+
+#home.button:hover span:after {
+  content: "Home";
+  transition: 0.5s;
+
+}
+#menu.button:hover span:after {
+  content: "Menu";
+}
+#a_propos.button {
+  float: right;
+}
+#a_propos.button:hover {
+  width: 13%;
+  transition: 1s;
+}
+#a_propos.button:hover span:after {
+  content: " À Propos";
+}
+
+/*
+#home.button span:before {
+  content: '🏠';
+  opacity: 0;
+  top: 0;
+
+}
+#home.button:hover span:before {
+  opacity: 1;
+  visibility: visibility;
+  transition: 1s;
+}
+*/
+
+

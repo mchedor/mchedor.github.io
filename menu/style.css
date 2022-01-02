@@ -1,0 +1,54 @@
+body {
+    background-color: #d1eeee;
+    font-size: 1.2;
+}
+.contenu {
+    margin-left: 11%;
+    font-family: "Comic Sans MS", cursive;
+
+}
+h2{
+    margin-left: 3%;
+}
+address {
+    margin-left: 7%;
+}
+p{
+    margin-left: 7%;
+}
+ul.espace{
+    margin-left: 7%;
+}
+.lien_button{
+    color:black;
+}
+.lien_button:hover{
+    background-color: #cbde87;
+    border: 2px solid;
+    padding: 2px;
+    border-radius: 12px;
+    transition-property: padding;
+    transition: background-color 2s, border 0.5s, padding 0.5s, border-radius 0.2s;
+
+}
+a.alphabet{
+    color: black;
+}
+a.alphabet::after {
+    content: "|";
+}
+a.alphabet:visited{
+    color:black;
+}
+a.maison{
+    color: #5e7e3a;
+}
+a.maison:visited{
+    color:#5e7e3a;
+}
+a.marmiton{
+    color: black;
+}
+a.marmiton:visited{
+    color:black;
+}
