@@ -1,0 +1,22 @@
+body {
+    background-color: #d1eeee;
+}
+.contenu {
+    margin-left: 11%;
+    font-family: "Comic Sans MS", cursive;
+
+}
+.titre{
+    text-decoration: underline;
+}
+.titre::after {
+    content:" :"
+}
+p {
+    margin-left: 3%;
+    margin-right: 11%;
+    line-height : 1.8;
+}
+ul{
+    margin-left: 3%;
+}

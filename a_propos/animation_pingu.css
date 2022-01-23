@@ -1,0 +1,50 @@
+@keyframes flecher {
+    from {
+      margin-left:0px;
+    }
+    50% {
+        margin-left: -20px;
+    }
+    to {
+        margin-left:100px;
+    }
+  }
+
+@keyframes arc {
+    from {
+        letter-spacing:  10px;
+    }
+    33%{
+        letter-spacing:  20px;
+    }
+    66% {
+        letter-spacing:  30px;
+    }
+    to {
+        letter-spacing:  30px;
+    }
+}
+
+#fleche {
+    animation-duration: 4s;
+    animation-name: flecher;
+    
+}
+#arc::after {
+    animation-duration: 2s;
+    content:"   ";
+    animation-name: arc;
+}
+#animation {
+    display: none;
+  }
+  
+#animation:target {
+    display: block;
+
+}
+.pingu{
+    padding: 20px;
+    letter-spacing:  5px;
+}
+  
